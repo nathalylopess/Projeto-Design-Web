@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagina_de_entrada.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="cabeçalho">
+                <input type="checkbox" id="menu">
+                <label for="menu"> &#9776; </label>
+                <img src="../imagens/logo_GymXpower_branca.png" id="logo_GymXpower">
+                <div class="carrinho_e_logo">
+                    <i class="bx bx-cart-alt bx-md bx-tada"></i>
+                    <a href="../login/pagina_de_login.html">
+                        <button>
+                            <i class="bx bx-user bx-md "></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cabeçalho_dois">
+                <img src="../imagens/logo_GymXpower_branca.png" id="logo_GymXpower">
+
+                <div class="pesquisa_responsivo">
+
+                    <div class="procura_responsivo">
+                        <input id="input" type="text"  placeholder="O que você está procurando?" required>
+                        <button id="lupa_responsivo">
+                            <i class="bx bx-search-alt bx-md bx-burst-hover"></i>
+                        </button>
+                    </div>
+                
+                </div>
+
+                <div class="carrinho_e_logo">
+                    <i class="bx bx-cart-alt bx-md bx-tada"></i>
+                
+                    <a href="../login/pagina_de_login.html">
+                        <button>
+                            <i class="bx bx-user bx-md "></i>
+                        </button>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div id="menu_responsivo">
+                <div class="botoes_menu">Livros</div>
+                <div class="botoes_menu">Artistas</div>
+                <div class="botoes_menu">Favoritos</div>
+            </div>
+        </nav>
+        <div id="pesquisa__">
+            <div class="pesquisa">
+                <div class="procura">
+                    <input class="input" type="text"  placeholder="O que você está procurando?" required>
+                    <button id="lupa_responsivo">
+                        <i class="bx bx-search-alt bx-md bx-burst-hover"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="carrosel">
+            <input type="radio" name="carrosel" id="slide1" checked>
+            <input type="radio" name="carrosel" id="slide2">
+            <input type="radio" name="carrosel" id="slide3">
+            <div class="slides">
+              <div class="slide">
+                <img src="../imagens/1.png" alt="Slide 1">
+              </div>
+              <div class="slide">
+                <img src="../imagens/3.png" alt="Slide 2">
+              </div>
+              <div class="slide">
+                <img src="../imagens/4.png" alt="Slide 3">
+              </div>
+            </div>
+            <div class="navegacao">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+            </div>
+        </div>
+
+        
+        <!--
+        <div class="ivrosl">
+            <img src="/Atividade 03/imagens/livro1.jpg">
+            <div class="descricao_dos_livros">
+                <p>Quando a dança começa, a sincronia é perfeita, os passos seguem o ritmo, as mãos não se soltam, os olhos jamais se deixam. Mas a música pode acabar a qualquer momento... É possível valsar no silêncio? Quinn e Graham se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois.</p>
+            </div>
+        </div>
+
+        <div class="livros">
+            <img src="/Atividade 03/imagens/livro2.jpg">
+            <div class="descricao_dos_livros">
+                <p>
+                    Filha de uma mãe problemática e um pai ausente, Beyah precisou aprender a se virar sozinha desde pequena. Sua vida foi trilhada com muitas decepeções. Mas ela está prestes a mudar a sua sorte graças a si mesma, e a mais ninguém, por conta da bolsa de estudos que ganhou para estudar em uma boa universidade. Apenas dois curtos meses separam o tão sonhado futuro do passado que tanto deseja deixar para trás. Mas uma reviravolta faz Beyah perder até mesmo a casa em que mora.
+Sem opção, ela recorre ao último recurso que tem e precisará passar o resto do verão na casa de praia do pai que mal conhece, da nova esposa e da filha dela que nem ao menos ouvira falar. O plano de Beyah é se manter quase invisível até poder ir para a faculdade. Mas o vizinho da casa ao lado torna tudo muito mais complicado.
+                </p>
+            </div>
+        </div>
+
+        <div class="livros">
+            <img src="/Atividade 03/imagens/livro3.jpg">
+            <div class="descricao_dos_livros">
+                <p>
+                    Tempos sombrios se abateram sobre Hogwarts. Depois do ataque dos Dementadores ao seu primo Dudley, Harry Potter sabe que Voldemort fará tudo para encontrá-lo. Muitos negam o retorno do Lorde das Trevas, mas Harry não está sozinho: uma ordem secreta se reúne no Largo Grimmauld para fazer frente às forças sombrias. Harry precisa permitir que o professor Snape o ensine a se proteger dos vorazes ataques de Voldemort à sua mente. Mas eles estão ficando cada vez mais fortes, e o tempo de Harry está acabando...
+                </p>
+            </div>
+        </div>
+
+        <div class="livros">
+            <img src="/Atividade 03/imagens/livro4.jpg">
+            <div class="descricao_dos_livros">
+                <p>
+                    O garoto-problema Percy Jackson é um deles. Tem experiências estranhas em que deuses e monstros mitológicos parecem saltar das páginas dos livros direto para a sua vida. Pior que isso: algumas dessas criaturas estão bastante irritadas. Um artefato precioso foi roubado do Monte Olimpo e Percy é o principal suspeito. Para restaurar a paz, ele e seus amigos – jovens heróis modernos – terão de fazer mais do que capturar o verdadeiro ladrão: precisam elucidar uma traição mais ameaçadora que fúria dos deuses.
+                </p>
+            </div>
+        </div>
+
+        <div class="livros">
+            <img src="/Atividade 03/imagens/livro5.jpg">
+            <div class="descricao_dos_livros">
+                <p>
+                    Os 7 hábitos das pessoas altamente eficazes de Stephen R. Covey é um best-seller mundial que já ajudou leitores em todo o mundo a alcançarem a transformação pessoal. Neste livro, com bom humor e inteligência, Sean Covey baseia-se no best-seller escrito por seu pai e aplica aos jovens os princípios clássicos dos 7 hábitos.
+Um livro que ensina a resgatar o prazer da união, da compreensão e da convivência e a construir uma vida familiar harmoniosa, sólida e amorosa, que perpetue ao longo das gerações.
+                </p>
+            </div>
+        </div>
+
+        <div class="livros">
+            <img src="/Atividade 03/imagens/livro6.jpg">
+            <div class="descricao_dos_livros">
+                <p>
+                    Um dos livros mais falados da última década, abriu os olhos do mundo para a necessidade de pensar o planejamento de finanças pessoais. Pai Rico, Pai Pobre foi o primeiro best-seller de Robert T. Kyiosaki e Sharon Lechter, e deu origem a uma série de enorme sucesso. Seu conceito é muito simples: com maior inteligência financeira muitos problemas comuns da vida cotidiana podem ser resolvidos. Saiba o que os ricos tratam como ativos geradores de renda, e como se livrar de pagar impostos demais. A cada dia, a cada nota você escolhe ser rico, pobre ou classe média. A melhor maneira de preparar seus filhos para o mundo é dividir esse conhecimento com eles. Se você não fizer isso, ninguém mais fará. Determine o destino do dinheiro que chega às suas mãos.
+                </p>
+            </div>
+        </div>-->
+    </main>
+
+    <script src="pagina_de_entrada.js"></script>
+</body>
+</html>
