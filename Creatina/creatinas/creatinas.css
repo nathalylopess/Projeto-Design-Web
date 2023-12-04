@@ -1,0 +1,237 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.pessoacomcreatina {
+    height: 380px;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px gray;
+}
+
+.pessoacomcreatina img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+}
+
+a .cabeçalho :hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.6);
+}
+
+#logo_gymxpower {
+    width: 300px;
+    margin-top: 5px;
+}
+
+
+main .login {
+    display: flex;
+    justify-content: center;
+}
+
+.suplementos {
+    display: flex;
+    /*background-color: #FCA311;*/
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fila1, .fila2, .fila3, .fila4 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.creatinas {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+
+
+}
+#creatina_gymxpower{
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.box {
+    height: 370px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 0.5px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px gray;
+}
+
+
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#box1 img {
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+ 
+#box2 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box3 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box4 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box5 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box6 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box7 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box8 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+.descricao {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+.descricao p {
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin-top: 5px;
+}
+
+.preco {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 5px;
+}
+.preco p {
+    font-size: 30px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.botoes {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+}
+
+.carrinho {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+
+.carrinho button {
+    background: transparent;
+    color: white;
+}
+
+.fila1 :hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.fila2 :hover {
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.box :hover {
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 10px;
+    }
+}
+
+.fila4 :hover {
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 10px;
+    }
+}
