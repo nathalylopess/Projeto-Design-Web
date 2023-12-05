@@ -29,7 +29,7 @@ nav {
     height: 50px;
     width: 50%;
 }
- .procura {
+.procura {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@ nav {
     border: 0.5px solid rgb(184, 182, 182);
  }
 
- .procura input {
+.procura input {
     width: 100%;
     height: 40px;
     font-size: 18px;
@@ -48,7 +48,7 @@ nav {
     border-radius: 25px;
 }
 
- #lupa {
+#lupa {
     height: 80px;
     width: 80px;
     display: flex;
@@ -61,6 +61,10 @@ nav {
     
     justify-self: flex-end;
     float: right;
+}
+
+.carrinho button {
+    font-size: large;
 }
 
 a button {
@@ -684,11 +688,11 @@ main .login {
     }
 
     .pesquisa {
-        width: 30%;
+        width: 40%;
     }
 
     #carrinho_e_logo {
-        width: 30%;
+        width: 20%;
         align-content: center;
         justify-content: center;
     }
