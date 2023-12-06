@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="pagina_de_entrada.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header> 
+    <header>
         <nav>
             <div class="cabeçalho">
-                <input type="checkbox" id="menu">
-                <label for="menu"> &#9776; </label>
-                <img src="../imagens/logo_GymXpower_branca.png" id="logo_GymXpower">
+                <img src="../imagens/logo_GymXpower_branca.png"id="logo_GymXpower">
                 <div class="carrinho_e_logo">
-                    <i class="bx bx-cart-alt bx-md bx-tada"></i>
+                    <a href="../carrinho/carrinho.html">
+                        <button>
+                            <i class="bx bx-cart-alt bx-md bx-tada"></i>
+                        </button>                      
+                    </a>                    
                     <a href="../login/pagina_de_login.html">
                         <button>
                             <i class="bx bx-user bx-md "></i>
@@ -53,9 +55,30 @@
             </div>
 
             <div id="menu_responsivo">
-                <div class="botoes_menu">Livros</div>
-                <div class="botoes_menu">Artistas</div>
-                <div class="botoes_menu">Favoritos</div>
+                <a href="../whey_protein/whey_protein.html" class="ancora">
+                    <button class="botoes_menu"> Whey Protein </button>
+                </a>
+
+                <a href="../creatinas/creatinas.html" class="ancora">
+                    <button class="botoes_menu"> Creatina </button> 
+                </a>
+
+                <a href="../roupas/roupas.html" class="ancora">
+                    <button class="botoes_menu"> Roupas </button> 
+                </a>
+
+                <a href="../acessorios/acessorios.html" class="ancora">
+                    <button class="botoes_menu"> Acessórios </button>
+                </a>
+
+                <a href="" class="ancora">
+                    <button class="botoes_menu"> Dashboard </button>                    
+                </a>
+
+                <a href="" class="ancora">
+                    <button class="botoes_menu"> Outros </button>                    
+                </a>
+
             </div>
         </nav>
         <div id="pesquisa__">
@@ -68,6 +91,41 @@
                 </div>
             </div>
         </div>
+        <div class="anuncios">
+            <div id="frete">
+                <i class="bx bx-package bx-lg"></i>
+                <div class="informacoes">
+                    <p class="negrito"> Frete Gratis </p>
+                    <p>Em compras acima de R$100,00</p>
+                </div>
+            </div>
+
+            <div id="cartão">             
+                    <i class="bx bx-credit-card bx-lg"></i>
+                    <div class="informacoes">
+                        <p class="negrito"> Parcele Sua Compra </p>
+                        <p>Em até 6x sem juros</p>
+                    </div>                  
+            </div>
+
+            <div id="cashback">
+                    <i class="bx bx-dollar-circle bx-lg"></i>
+                    <div class="informacoes">
+                        <p class="negrito"> Ganhe Cashback </p>
+                        <p>Receba até 10% de volta</p> 
+                    </div>                
+            </div>
+
+            <div id="desconto">
+                    <i class="bx bxs-discount bx-lg"></i>
+                    <div class="informacoes">
+                        <p class="negrito"> 5% de Desconto </p>
+                        <p>Pagamentos via pix</p>
+                    </div>                                          
+            </div>
+
+        </div>
+
     </header>
 
     <main>
@@ -93,62 +151,68 @@
             </div>
         </div>
 
+        <div class="Sobre">
+            <img src="../imagens/mulher_anuncio.png">
+            <div class="textos">
+                <p id="texto1"> O uso de suplementos vem crescendo no mundo fitness e esportes. Antes, eram consumidos apenas por atletas profissionais para
+                    complementar a dieta. Hoje, são cada vez mais utilizados por atletas amadores e pessoas comuns. Isso ocorre porque as pessoas estão cada 
+                    vez mais ocupadas e com dificuldade de seguir uma dieta equilibrada, com todos os nutrientes necessários para a prática de atividades 
+                    físicas. Os suplementos mais buscados são os que ajudam no ganho de massa muscular, emagrecimento, fornecimento de vitaminas e minerais e 
+                    outros fitoterápicos.
+                </p>
+                <br>
+               <h2>Para que serve os suplementos da GymXPower?</h2>
+               <br>
+               <p id="texto2"> Os suplementos alimentares são substâncias extraídas dos alimentos que fornecem nutrientes essenciais para o organismo. Eles podem ser compostos por vitaminas, minerais, aminoácidos ou outros compostos bioativos.
+                   Os suplementos são utilizados para complementar a dieta, quando é impossível ou difícil obter os nutrientes necessários apenas pela alimentação. Por exemplo, para obter a dose diária recomendada de creatina, seria necessário consumir uma grande quantidade de carne vermelha, o que também resultaria na ingestão de gorduras e outros nutrientes indesejados.
+                   Existem suplementos alimentares para todos os objetivos, desde o aumento de massa muscular até a perda de peso. No entanto, é importante consultar um profissional de saúde antes de iniciar o uso de suplementos, pois eles podem ter efeitos colaterais, especialmente quando consumidos em excesso.
+                </p>
+                <br>
+                <h2>Conheça nossa marca.</h2>
+                <br>
+                <p id="texto3"> 
+                 A marca GymXPower é especializada em suplementos alimentares para auxiliar na prática de exercícios físicos. Seus produtos são desenvolvidos com ingredientes naturais e seguros, que ajudam a melhorar o desempenho, a recuperação muscular e a saúde geral.          
+                 A linha de suplementos GymXPower conta com diversos produtos, cada um com seus próprios benefícios e indicações. Entre os principais destaques estão:
+                </p>
+            </div>
+        </div>
+
+        <div class="produtos">
+            <img src="../imagens/mulher_anuncio2.png">
+            <div class="txt_produtos">
+                <p>GymXPower Pré-Treino: é um suplemento alimentar que ajuda a aumentar a energia, a concentração e o foco, proporcionando um melhor desempenho durante o treino. É composto por ingredientes como cafeína, creatina, taurina, beta-alanina e aminoácidos essenciais.</p>
+                <p>GymXPower Pós-Treino: é um suplemento alimentar que ajuda na recuperação muscular, reposição de nutrientes e hidratação. É composto por ingredientes como proteína, carboidratos, vitaminas e minerais.</p>
+                <p>GymXPower Whey Protein: é um suplemento alimentar de proteína de soro de leite, que ajuda no ganho de massa muscular e na recuperação muscular. É uma boa opção para pessoas que praticam exercícios físicos de alta intensidade ou que buscam aumentar a ingestão de proteína. </p>
+                <p>GymXPower Creatina: é um suplemento alimentar que ajuda no aumento de força, massa muscular e potência muscular. É uma boa opção para pessoas que praticam exercícios físicos de alta intensidade ou que buscam melhorar seus resultados. </p>                   
+                <p>GymXPower BCAA: é um suplemento alimentar de aminoácidos essenciais, que ajudam na recuperação muscular e no aumento da resistência. É uma boa opção para pessoas que praticam exercícios físicos de alta intensidade ou que buscam melhorar seus resultados. </p>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="logo_footer">
+                <img src="../imagens/logo_GymXpower_branca.png">
+    
+            </div>
+            <div class="contato">
+                <p id="atendimento">Central de Atendimento</p>
+                <div class="whatsapp">
+                    <i class='bx bxl-whatsapp bx-sm'></i>
+                    <p id="telefone">84 4002-8922</p>
+                </div>
+                <div class="email">
+                    <i class='bx bx-envelope bx-sm'></i>
+                    <p>gymxpower@gmail.com</p>
+                </div>
+                <p id="horario">Seg a Sex das 9h-12h/13h-17h </p>
+    
+            </div>
+    
+        </footer>
         
-        <!--
-        <div class="ivrosl">
-            <img src="/Atividade 03/imagens/livro1.jpg">
-            <div class="descricao_dos_livros">
-                <p>Quando a dança começa, a sincronia é perfeita, os passos seguem o ritmo, as mãos não se soltam, os olhos jamais se deixam. Mas a música pode acabar a qualquer momento... É possível valsar no silêncio? Quinn e Graham se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois.</p>
-            </div>
-        </div>
-
-        <div class="livros">
-            <img src="/Atividade 03/imagens/livro2.jpg">
-            <div class="descricao_dos_livros">
-                <p>
-                    Filha de uma mãe problemática e um pai ausente, Beyah precisou aprender a se virar sozinha desde pequena. Sua vida foi trilhada com muitas decepeções. Mas ela está prestes a mudar a sua sorte graças a si mesma, e a mais ninguém, por conta da bolsa de estudos que ganhou para estudar em uma boa universidade. Apenas dois curtos meses separam o tão sonhado futuro do passado que tanto deseja deixar para trás. Mas uma reviravolta faz Beyah perder até mesmo a casa em que mora.
-Sem opção, ela recorre ao último recurso que tem e precisará passar o resto do verão na casa de praia do pai que mal conhece, da nova esposa e da filha dela que nem ao menos ouvira falar. O plano de Beyah é se manter quase invisível até poder ir para a faculdade. Mas o vizinho da casa ao lado torna tudo muito mais complicado.
-                </p>
-            </div>
-        </div>
-
-        <div class="livros">
-            <img src="/Atividade 03/imagens/livro3.jpg">
-            <div class="descricao_dos_livros">
-                <p>
-                    Tempos sombrios se abateram sobre Hogwarts. Depois do ataque dos Dementadores ao seu primo Dudley, Harry Potter sabe que Voldemort fará tudo para encontrá-lo. Muitos negam o retorno do Lorde das Trevas, mas Harry não está sozinho: uma ordem secreta se reúne no Largo Grimmauld para fazer frente às forças sombrias. Harry precisa permitir que o professor Snape o ensine a se proteger dos vorazes ataques de Voldemort à sua mente. Mas eles estão ficando cada vez mais fortes, e o tempo de Harry está acabando...
-                </p>
-            </div>
-        </div>
-
-        <div class="livros">
-            <img src="/Atividade 03/imagens/livro4.jpg">
-            <div class="descricao_dos_livros">
-                <p>
-                    O garoto-problema Percy Jackson é um deles. Tem experiências estranhas em que deuses e monstros mitológicos parecem saltar das páginas dos livros direto para a sua vida. Pior que isso: algumas dessas criaturas estão bastante irritadas. Um artefato precioso foi roubado do Monte Olimpo e Percy é o principal suspeito. Para restaurar a paz, ele e seus amigos – jovens heróis modernos – terão de fazer mais do que capturar o verdadeiro ladrão: precisam elucidar uma traição mais ameaçadora que fúria dos deuses.
-                </p>
-            </div>
-        </div>
-
-        <div class="livros">
-            <img src="/Atividade 03/imagens/livro5.jpg">
-            <div class="descricao_dos_livros">
-                <p>
-                    Os 7 hábitos das pessoas altamente eficazes de Stephen R. Covey é um best-seller mundial que já ajudou leitores em todo o mundo a alcançarem a transformação pessoal. Neste livro, com bom humor e inteligência, Sean Covey baseia-se no best-seller escrito por seu pai e aplica aos jovens os princípios clássicos dos 7 hábitos.
-Um livro que ensina a resgatar o prazer da união, da compreensão e da convivência e a construir uma vida familiar harmoniosa, sólida e amorosa, que perpetue ao longo das gerações.
-                </p>
-            </div>
-        </div>
-
-        <div class="livros">
-            <img src="/Atividade 03/imagens/livro6.jpg">
-            <div class="descricao_dos_livros">
-                <p>
-                    Um dos livros mais falados da última década, abriu os olhos do mundo para a necessidade de pensar o planejamento de finanças pessoais. Pai Rico, Pai Pobre foi o primeiro best-seller de Robert T. Kyiosaki e Sharon Lechter, e deu origem a uma série de enorme sucesso. Seu conceito é muito simples: com maior inteligência financeira muitos problemas comuns da vida cotidiana podem ser resolvidos. Saiba o que os ricos tratam como ativos geradores de renda, e como se livrar de pagar impostos demais. A cada dia, a cada nota você escolhe ser rico, pobre ou classe média. A melhor maneira de preparar seus filhos para o mundo é dividir esse conhecimento com eles. Se você não fizer isso, ninguém mais fará. Determine o destino do dinheiro que chega às suas mãos.
-                </p>
-            </div>
-        </div>-->
     </main>
+    
+    
+
 
     <script src="pagina_de_entrada.js"></script>
 </body>
