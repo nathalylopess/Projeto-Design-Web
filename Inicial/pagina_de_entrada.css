@@ -1,0 +1,333 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.carrosel {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  
+  .slides {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .navegacao {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navegacao label {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #slide1:checked ~ .slides .slide:nth-child(1),
+  #slide2:checked ~ .slides .slide:nth-child(2),
+  #slide3:checked ~ .slides .slide:nth-child(3) {
+    display: block;
+  }
+
+
+
+
+
+
+a button {
+    background-color: transparent;
+    color: white;
+}
+
+
+#logo_GymXpower {
+    width: 300px;
+    padding: 5px;
+}
+
+.carrinho_e_logo {
+    display: flex;
+    height: 45px ;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+.cabeçalho_dois, #avatar_responsivo, .pesquisa_responsivo, .procura_responsivo, .lupa_responsivo, #lupa_responsivo, #imagem_lupa_responsivo, .botoes_menu, #menu_responsivo{
+    display: none;
+}
+
+.cabeçalho_dois p {
+    display: none;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid rgb(184, 182, 182) ;
+}
+
+.cabeçalho p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu {
+    display: none;
+}
+
+label {
+    display: inline;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#avatar {
+    height: 20px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.procura {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    border: 0.5px solid rgb(184, 182, 182);
+    border-radius: 10px;
+    
+}
+
+.procura input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+#lupa {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#imagem_lupa {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    display: flex;
+    height: 700vh;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start ;
+    justify-content:flex-start ;
+}
+
+.livros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: self-start;
+    height: 700px;
+    width: 350px;
+}
+
+.livros img {
+    width: 200px ;
+    height: 300px;
+}
+
+.livros .descricao_dos_livros p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+
+@media (min-height:643px) and (min-width:974px) {
+
+    /* O antigo sai*/
+    .cabeçalho p {
+        display: none;
+    } 
+
+    #menu, label, #avatar {
+        display: none;
+    }    
+    .cabeçalho {
+        display: none;
+    }
+
+    /*Novo Cabeçalho*/
+
+    .cabeçalho_dois {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        border-bottom: 1px solid white ;
+    }
+
+    .cabeçalho_dois p {
+        display: inline;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #avatar_responsivo {
+        height: 20px;
+    }
+    .pesquisa_responsivo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 50%;
+    }
+     .procura_responsivo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 85%;
+        background-color: white;
+        border-radius: 10px;
+        border: 0.5px solid rgb(184, 182, 182);
+     }
+
+     .procura_responsivo input {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 10px;
+        border-radius: 25px;
+    }
+
+     #lupa_responsivo {
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+     }
+
+     #avatar_responsivo {
+        display: inline-block;
+     }
+
+     #menu_responsivo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 40px;
+        background-color: black;
+     }
+
+     .botoes_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 25px;
+        background-color:  rgb(136, 168, 228) ;
+        border: 1px solid white;
+        font-weight: bold;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+
+     /* Tirando a pesquisa antiga */
+    .procura, .pesquisa, .lupa, #lupa, #imagem_lupa {
+        display: none;
+    }   
+    
+    /* Colocando os livros*/
+
+    .livros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: self-start;
+        height: 670px;
+        width: 350px;
+    }
+
+
+    main {
+        display: flex;
+        height: 400vh;
+        width: 100%;
+        
+        align-content: column ;
+        justify-items: center;
+    }
+
+    .carrosel {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+    
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
