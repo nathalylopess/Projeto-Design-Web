@@ -1,0 +1,922 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+}
+
+#menu {
+    display: none;
+}
+
+#carrinho_e_logo {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+}
+.procura {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    border: 0.5px solid rgb(184, 182, 182);
+ }
+
+.procura input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+
+#lupa {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+ }
+
+#carrinho {
+    
+    justify-self: flex-end;
+    float: right;
+}
+
+.carrinho button {
+    font-size: large;
+}
+
+a button {
+    background-color: transparent;
+    color: white;
+}
+
+.pessoacomcreatina {
+    height: 400px;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px gray;
+
+}
+
+.pessoacomcreatina img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#logo_da_creatina {
+    
+    justify-self: flex-end;
+}
+
+#logo_da_creatina {
+    display: f40x;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: 100px;
+    background-color:black;
+}
+
+
+a .cabeçalho :hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+#logo_gymxpower {
+    width: 300px;
+    margin-top: 5px;
+}
+
+
+main .login {
+    display: flex;
+    justify-content: center;
+}
+
+.suplementos {
+    display: flex;
+    /*background-color: #FCA311;*/
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fila1, .fila2, .fila3, .fila4 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    
+}
+.creatinas {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+
+
+}
+#creatina_gymxpower{
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#lupa_magica {
+    display: none;
+}
+
+.box {
+    height: 400px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-content:space-between ;
+    flex-direction: row;
+    border: 0.5px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    box-shadow: 5px 5px 13px gray;
+    background-color: transparent;
+    
+}
+
+
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#box1 img {
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+ 
+#box2 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box3 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box4 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box5 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box6 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box7 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+
+#box8 img{
+    width: 220px;
+    height: 220px;
+    display: flex;
+}
+.descricao {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+.descricao p {
+    color: black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 30px;
+}
+.preco p {
+    font-size: 30px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.descricao
+
+.carrinho {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-self:flex-end;
+    
+    
+}
+
+.carrinho button {
+    background: transparent;
+    color: transparent;
+}
+
+.fila2, .fila4 {
+    flex-direction: row-reverse;
+}
+
+.fila1 :hover {
+/*
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); */
+
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px ;
+        font-weight: bold ;
+        margin-top: 15px;
+    }
+}
+
+.fila2 :hover {
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px ;
+        font-weight: bold ;
+        margin-top: 15px;
+    }
+}
+
+.fila3 :hover {
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px ;
+        font-weight: bold ;
+        margin-top: 15px;
+    }
+}
+
+.fila4 :hover {
+    .carrinho button {
+        width: 100%;
+        height: 100%;
+        background-color: goldenrod;
+        color: white;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px ;
+        font-weight: bold ;
+        margin-top: 15px;
+    }
+}
+
+
+@media (min-width:1100px) {
+
+    a .cabeçalho :hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+        
+    #logo_da_creatina {
+        width: 50%;
+        align-content: center;
+        display: flex;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 100px;
+        background-color:black;
+    }
+
+    #carrinho_e_logo {
+        align-items: center;
+        justify-content: space-around;
+        width: 10%;
+    }
+
+    .pesquisa {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 40%;
+    }
+    .procura {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 85%;
+        background-color: white;
+        border-radius: 10px;
+        border: 0.5px solid rgb(184, 182, 182);
+    }
+
+    .procura input {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        padding-left: 10px;
+        border-radius: 25px;
+    }
+
+    #lupa {
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    #carrinho {
+        
+        justify-self: flex-end;
+        float: right;
+    }
+
+    a button {
+        background-color: transparent;
+        color: white;
+    }
+
+    .pessoacomcreatina {
+        height: 400px;
+        width: 25%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 13px gray;
+
+    }
+
+    .pessoacomcreatina img {
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #logo_da_creatina {
+        justify-self: flex-end;
+    }
+
+    .cabeçalho {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        height: 100px;
+        background-color:black;
+    }
+
+
+    a .cabeçalho :hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+
+    #logo_gymxpower {
+        width: 300px;
+        margin-top: 5px;
+    }
+
+
+    main .login {
+        display: flex;
+        justify-content: center;
+    }
+
+    .suplementos {
+        display: flex;
+        /*background-color: #FCA311;*/
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .fila1, .fila2, .fila3, .fila4 {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        
+    }
+    .creatinas {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height: 90px;
+        width: 100%;
+
+
+    }
+    #creatina_gymxpower{
+        font-size: 29px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: bold;
+        
+    }
+
+    .box {
+        height: 400px;
+        width: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-content:space-between ;
+        flex-direction: row;
+        border: 0.5px solid rgb(219, 219, 219);
+        border-radius: 20px;
+        box-shadow: 5px 5px 13px gray;
+        background-color: transparent;
+        
+    }
+
+
+
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #box1 img {
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+    
+    #box2 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+
+    #box3 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+
+    #box4 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+
+    #box5 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+
+    #box6 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+
+    #box7 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+
+    #box8 img{
+        width: 220px;
+        height: 220px;
+        display: flex;
+    }
+    .descricao {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 5px;
+    }
+    .descricao p {
+        color: black;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        display: flex;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .preco {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+    .preco p {
+        font-size: 30px;
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+
+    .carrinho {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-self:flex-end;
+        
+        
+    }
+
+    .carrinho button {
+        background: transparent;
+        color: transparent;
+    }
+
+    .fila2, .fila4 {
+        flex-direction: row-reverse;
+    }
+
+    .fila1 :hover {
+    /*
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1); */
+
+        .carrinho button {
+            width: 100%;
+            height: 100%;
+            background-color: goldenrod;
+            color: white;
+            border-end-end-radius: 20px;
+            border-end-start-radius: 20px ;
+            font-weight: bold ;
+            margin-top: 15px;
+        }
+    }
+
+    .fila2 :hover {
+        .carrinho button {
+            width: 100%;
+            height: 100%;
+            background-color: goldenrod;
+            color: white;
+            border-end-end-radius: 20px;
+            border-end-start-radius: 20px ;
+            font-weight: bold ;
+            margin-top: 15px;
+        }
+    }
+
+    .fila3 :hover {
+        .carrinho button {
+            width: 100%;
+            height: 100%;
+            background-color: goldenrod;
+            color: white;
+            border-end-end-radius: 20px;
+            border-end-start-radius: 20px ;
+            font-weight: bold ;
+            margin-top: 15px;
+        }
+    }
+
+    .fila4 :hover {
+        .carrinho button {
+            width: 100%;
+            height: 100%;
+            background-color: goldenrod;
+            color: white;
+            border-end-end-radius: 20px;
+            border-end-start-radius: 20px ;
+            font-weight: bold ;
+            margin-top: 15px;
+        }
+    }
+}
+
+@media (max-width:1099px) {
+    .pessoacomcreatina {
+        display: none;
+    }
+
+    a .cabeçalho :hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+
+    .carrinho {
+        width: 100%;
+        height: 60px;
+    }
+
+    .box {
+        width: 40%;
+    }
+
+    .carrinho button {
+        font-size: large;
+    }
+
+    .cabeçalho {
+        width: 40%;
+    }
+
+    .pesquisa {
+        width: 40%;
+    }
+
+    #carrinho_e_logo {
+        width: 20%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #logo_da_creaina {
+        width: 40%;
+    }
+
+}   
+
+@media (max-width:600px) {
+    .box {
+        width: 45%;
+        height: 500px;
+    }
+
+    a .cabeçalho :hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+
+    .pesquisa {
+        display: none;
+    }
+
+    #lupa_magica {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        
+    }
+
+    #carrinho_e_logo {
+        width: 20%;
+        align-content: center ;
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+        
+
+    }
+
+    a #carrinho_e_logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .carrinho {
+        height: 60px;
+    }
+
+}
+
+@media (max-width:470px)  {
+    #carrinho_e_logo {
+        width: 20%;
+        flex-direction: row;
+    }
+
+    a .cabeçalho :hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    } 
+     
+    nav {
+        height: 150px;
+        justify-content: space-between;
+    }
+
+    #logo_gymxpower {
+        width: 100%;
+    }
+    
+    #logo_da_creatina {
+        align-items: center;
+        height: 100px;
+        width: 65%;
+    }
+
+    .cabeçalho {
+        align-content: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .box {
+        height: 400px;
+    }
+
+    #box1 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box2 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box3 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box4 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box5 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box6 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box7 img {
+        height: 180px;
+        width: 180px;
+    }
+
+    #box8 img {
+        height: 180px;
+        width: 180px;
+    }
+    .descricao p {
+        font-size: smaller;
+    }
+}
+
+@media (max-width:360px) {
+    #logo_da_creatina {
+        height: 50px;
+        width: 80%;
+    }
+
+    .cabeçalho {
+        height: 100%;
+        width: 100%;
+    }
+
+    #carrinho_e_logo, #lupa_magica {
+        display: none;
+    }
+
+    .preco p {
+        font-size: medium;
+    }
+
+    .descricao p {
+        width: 100%;
+        font-size : small;
+    }
+
+    .carrinho button {
+        font-size: smaller;
+    }
+
+    #menu {
+        display: inline;
+        padding-top: 25px;
+    }
+
+    #menu button {
+        background-color: transparent;
+    }
+
+    .box {
+        height: 300px;
+    }
+
+    #box1 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box2 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box3 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box4 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box5 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box6 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box7 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #box8 img {
+        height: 100px;
+        width: 100px;
+    }
+    .descricao p {
+        font-size: smaller;
+    }
+}
