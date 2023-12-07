@@ -1,0 +1,408 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.grafico img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.cabeçalho_dois,  .pesquisa_responsivo, .procura_responsivo, .lupa_responsivo, .botoes_menu, #menu_responsivo{
+    display: none;
+}
+
+.cabeçalho_dois p {
+    display: none;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid rgb(184, 182, 182) ;
+}
+
+
+
+
+/* O antigo sai*/
+.cabeçalho p {
+    display: none;
+} 
+
+#menu, label, #avatar {
+    display: none;
+}    
+.cabeçalho {
+    display: none;
+}
+
+/*Novo Cabeçalho*/
+
+.cabeçalho_dois {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid white ;
+}
+
+.cabeçalho_dois p {
+    display: inline;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#avatar_responsivo {
+    height: 20px;
+}
+.pesquisa_responsivo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+}
+ .procura_responsivo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    border: 0.5px solid rgb(184, 182, 182);
+ }
+
+ .procura_responsivo input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+
+ #lupa_responsivo {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+ }
+
+ #menu_responsivo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+ }
+
+ .ancora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.66%;
+    height: 40px;
+    color:transparent;
+    border: 1px solid rgb(244, 244, 244);
+
+}
+
+.botoes_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color:transparent;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ancora:hover {
+    background-color: #FCA311;
+}
+
+ /* Tirando a pesquisa antiga */
+.procura, .pesquisa, .lupa, #lupa, #imagem_lupa {
+    display: none;
+}   
+
+
+main {
+    display: flex;
+    height: 210vh;
+    width: 100%;
+    
+}
+
+
+
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.procura {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 85%;
+    border: 0.5px solid rgb(184, 182, 182);
+    border-radius: 10px;
+    
+}
+
+.procura input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+#lupa_responsivo {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#menu_responsivo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+.ancora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.66%;
+    height: 40px;
+    color:transparent;
+    border: 1px solid rgb(244, 244, 244);
+
+}
+
+.botoes_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color:transparent;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ancora:hover {
+    background-color: #FCA311;
+}
+
+
+.negrito {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    display: flex;
+    
+}
+.negrito + p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a button {
+    background-color: transparent;
+    color: white;
+}
+
+
+#logo_GymXpower {
+    width: 300px;
+    padding: 5px;
+}
+
+#logo_GymXpower:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+.carrinho_e_logo {
+    display: flex;
+    height: 45px ;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+main {
+    height: 400vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content:space-around ;
+    flex-wrap: wrap;
+
+}
+
+.descricao {
+    height: 400px;
+    width: 700px;
+    padding: 50px;
+}
+
+.grafico {
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+ }
+
+.descricao, .grafico {
+    box-shadow: 5px 5px 13px gray;
+    border-radius: 20px;
+}
+
+.descricao p {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+@media (min-width: 1080px) {
+    main {
+        height: 400vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-content:space-around ;
+        flex-wrap: wrap;
+
+    
+    }
+    
+    .descricao, .grafico {
+        box-shadow: 5px 5px 13px gray;
+        border-radius: 20px;
+    }
+
+    .descricao {
+        height: 400px;
+        width: 700px;
+        padding: 20px;
+
+    }
+    
+    .grafico {
+        height: 500px;
+        width: 500px;
+        padding: 20px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    main {
+        height: 800vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .descricao p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        height: 600vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .descricao p {
+        font-size: medium;
+    }
+
+    .descricao {
+        height: 500px;
+        width: 350px;
+    }
+
+    .grafico {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        height: 500vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .descricao {
+        height: 400px;
+        width: 250px;
+    }
+
+    .grafico {
+        height: 300px;
+        width: 300px;
+    }
+
+    .descricao p {
+        font-size: medium;
+    }
+}
