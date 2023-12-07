@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="pagina_de_entrada.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="cabeçalho">
+                <img src="../imagens/logo_GymXpower_branca.png"id="logo_GymXpower">
+                <div class="carrinho_e_logo">
+                    <a href="../carrinho/carrinho.html">
+                        <button>
+                            <i class="bx bx-cart-alt bx-md bx-tada"></i>
+                        </button>                      
+                    </a>                    
+                    <a href="../login/pagina_de_login.html">
+                        <button>
+                            <i class="bx bx-user bx-md "></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cabeçalho_dois">
+                <img src="../imagens/logo_GymXpower_branca.png" id="logo_GymXpower">
+
+                <div class="pesquisa_responsivo">
+
+                    <div class="procura_responsivo">
+                        <input id="input" type="text"  placeholder="O que você está procurando?" required>
+                        <button id="lupa_responsivo">
+                            <i class="bx bx-search-alt bx-md bx-burst-hover"></i>
+                        </button>
+                    </div>
+                
+                </div>
+
+                <div class="carrinho_e_logo">
+                    <i class="bx bx-cart-alt bx-md bx-tada"></i>
+                
+                    <a href="../login/pagina_de_login.html">
+                        <button>
+                            <i class="bx bx-user bx-md "></i>
+                        </button>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div id="menu_responsivo">
+                <a href="../whey_protein/whey_protein.html" class="ancora">
+                    <button class="botoes_menu"> Whey Protein </button>
+                </a>
+
+                <a href="../creatinas/creatinas.html" class="ancora">
+                    <button class="botoes_menu"> Creatina </button> 
+                </a>
+
+                <a href="../roupas/roupas.html" class="ancora">
+                    <button class="botoes_menu"> Roupas </button> 
+                </a>
+
+                <a href="../acessorios/acessorios.html" class="ancora">
+                    <button class="botoes_menu"> Acessórios </button>
+                </a>
+
+                <a href="../DashBoard/DashBoard.html" class="ancora">
+                    <button class="botoes_menu"> Dashboard </button>                    
+                </a>
+
+                <a href="" class="ancora">
+                    <button class="botoes_menu"> Outros </button>                    
+                </a>
+
+            </div>
+        </nav>
+        <div id="pesquisa__">
+            <div class="pesquisa">
+                <div class="procura">
+                    <input class="input" type="text"  placeholder="O que você está procurando?" required>
+                    <button id="lupa_responsivo">
+                        <i class="bx bx-search-alt bx-md bx-burst-hover"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="anuncios">
+            <div id="frete">
+                <i class="bx bx-package bx-lg"></i>
+                <div class="informacoes">
+                    <p class="negrito"> Frete Gratis </p>
+                    <p>Em compras acima de R$100,00</p>
+                </div>
+            </div>
+
+            <div id="cartão">             
+                    <i class="bx bx-credit-card bx-lg"></i>
+                    <div class="informacoes">
+                        <p class="negrito"> Parcele Sua Compra </p>
+                        <p>Em até 6x sem juros</p>
+                    </div>                  
+            </div>
+
+            <div id="cashback">
+                    <i class="bx bx-dollar-circle bx-lg"></i>
+                    <div class="informacoes">
+                        <p class="negrito"> Ganhe Cashback </p>
+                        <p>Receba até 10% de volta</p> 
+                    </div>                
+            </div>
+
+            <div id="desconto">
+                    <i class="bx bxs-discount bx-lg"></i>
+                    <div class="informacoes">
+                        <p class="negrito"> 5% de Desconto </p>
+                        <p>Pagamentos via pix</p>
+                    </div>                                          
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="carrosel">
+            <input type="radio" name="carrosel" id="slide1" checked>
+            <input type="radio" name="carrosel" id="slide2">
+            <input type="radio" name="carrosel" id="slide3">
+            <div class="slides">
+              <div class="slide">
+                <img src="../imagens/1.png" alt="Slide 1">
+              </div>
+              <div class="slide">
+                <img src="../imagens/3.png" alt="Slide 2">
+              </div>
+              <div class="slide">
+                <img src="../imagens/4.png" alt="Slide 3">
+              </div>
+            </div>
+            <div class="navegacao">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+            </div>
+        </div>
+
+        <div class="Sobre">
+            <img src="../imagens/mulher_anuncio.png">
+            <div class="textos">
+                <p id="texto1"> O uso de suplementos vem crescendo no mundo fitness e esportes. Antes, eram consumidos apenas por atletas profissionais para
+                    complementar a dieta. Hoje, são cada vez mais utilizados por atletas amadores e pessoas comuns. Isso ocorre porque as pessoas estão cada 
+                    vez mais ocupadas e com dificuldade de seguir uma dieta equilibrada, com todos os nutrientes necessários para a prática de atividades 
+                    físicas. Os suplementos mais buscados são os que ajudam no ganho de massa muscular, emagrecimento, fornecimento de vitaminas e minerais e 
+                    outros fitoterápicos.
+                </p>
+                <br>
+               <h2>Para que serve os suplementos da GymXPower?</h2>
+               <br>
+               <p id="texto2"> Os suplementos alimentares são substâncias extraídas dos alimentos que fornecem nutrientes essenciais para o organismo. Eles podem ser compostos por vitaminas, minerais, aminoácidos ou outros compostos bioativos.
+                   Os suplementos são utilizados para complementar a dieta, quando é impossível ou difícil obter os nutrientes necessários apenas pela alimentação. Por exemplo, para obter a dose diária recomendada de creatina, seria necessário consumir uma grande quantidade de carne vermelha, o que também resultaria na ingestão de gorduras e outros nutrientes indesejados.
+                   Existem suplementos alimentares para todos os objetivos, desde o aumento de massa muscular até a perda de peso. No entanto, é importante consultar um profissional de saúde antes de iniciar o uso de suplementos, pois eles podem ter efeitos colaterais, especialmente quando consumidos em excesso.
+                </p>
+                <br>
+                <h2>Conheça nossa marca.</h2>
+                <br>
+                <p id="texto3"> 
+                 A marca GymXPower é especializada em suplementos alimentares para auxiliar na prática de exercícios físicos. Seus produtos são desenvolvidos com ingredientes naturais e seguros, que ajudam a melhorar o desempenho, a recuperação muscular e a saúde geral.          
+                 A linha de suplementos GymXPower conta com diversos produtos, cada um com seus próprios benefícios e indicações. Entre os principais destaques estão:
+                </p>
+            </div>
+        </div>
+
+        <div class="produtos">
+            <img src="../imagens/mulher_anuncio2.png">
+            <div class="txt_produtos">
+                <p>GymXPower Pré-Treino: é um suplemento alimentar que ajuda a aumentar a energia, a concentração e o foco, proporcionando um melhor desempenho durante o treino. É composto por ingredientes como cafeína, creatina, taurina, beta-alanina e aminoácidos essenciais.</p>
+                <p>GymXPower Pós-Treino: é um suplemento alimentar que ajuda na recuperação muscular, reposição de nutrientes e hidratação. É composto por ingredientes como proteína, carboidratos, vitaminas e minerais.</p>
+                <p>GymXPower Whey Protein: é um suplemento alimentar de proteína de soro de leite, que ajuda no ganho de massa muscular e na recuperação muscular. É uma boa opção para pessoas que praticam exercícios físicos de alta intensidade ou que buscam aumentar a ingestão de proteína. </p>
+                <p>GymXPower Creatina: é um suplemento alimentar que ajuda no aumento de força, massa muscular e potência muscular. É uma boa opção para pessoas que praticam exercícios físicos de alta intensidade ou que buscam melhorar seus resultados. </p>                   
+                <p>GymXPower BCAA: é um suplemento alimentar de aminoácidos essenciais, que ajudam na recuperação muscular e no aumento da resistência. É uma boa opção para pessoas que praticam exercícios físicos de alta intensidade ou que buscam melhorar seus resultados. </p>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="logo_footer">
+                <img src="../imagens/logo_GymXpower_branca.png">
+    
+            </div>
+            <div class="contato">
+                <p id="atendimento">Central de Atendimento</p>
+                <div class="whatsapp">
+                    <i class='bx bxl-whatsapp bx-sm'></i>
+                    <p id="telefone">84 4002-8922</p>
+                </div>
+                <div class="email">
+                    <i class='bx bx-envelope bx-sm'></i>
+                    <p>gymxpower@gmail.com</p>
+                </div>
+                <p id="horario">Seg a Sex das 9h-12h/13h-17h </p>
+    
+            </div>
+    
+        </footer>
+        
+    </main>
+    
+    
+
+
+    <script src="pagina_de_entrada.js"></script>
+</body>
+</html>
