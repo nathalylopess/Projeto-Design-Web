@@ -5,35 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Site Login </title>
     <link rel="stylesheet" href="pagina_de_login.css">
+    <script src="pagina_de_login.js" defer></script>
 </head>
 <body>
         <header> 
             <nav>
                 <div class="cabeçalho">
-                    <img src="../imagens/logo_GymXpower_branca.png" id="logo_gymxpower">
+                    <!-- <img src="../imagens/logo_GymXpower_branca.png" id="logo_gymxpower"> -->
                 </div>
             </nav>
         </header>
         <main>
-            <div class="login">
-                <p id="login_gymxpower"> Login</p>
-                <div class="usuario">
-                    <p id="user"> Usuário: </p>
-                    <input type="text"  required>
+            <form id="form">
+                <div class="login">
+                    <p id="login_gymxpower">Login</p>
+                    <div class="usuario">
+                        <p id="user"> Usuário: </p>
+                        <input type="text" class="input required" oninput="nameValidate()">
+                        <span class="span-required">Nome de usuario deve ter no mínimo 3 caracteres</span>
+                    </div>
+                    <div class="senha">
+                        <p id="pass"> Senha: </p>
+                        <input type="password" class="input required" oninput="maisPasswordValidate()">
+                        <span class="span-required">Digite uma senha com no mínimo 8 caracteres</span>
+                    </div>
+                    <div class="botoes">
+                            <!-- <a href="../Inicial/pagina_de_entrada.html"> -->
+                            <button type="submit" class="acessar">Acessar</button>
+                        </a>
+                        <a href="../cadastro/pagina_cadastro.html"></a>
+                            <button class="cadastro">Cadastro</button>
+                        </a>
+                    </div>
                 </div>
-                <div class="senha">
-                    <p id="pass"> Senha: </p>
-                    <input type="password"  required>
-                </div>
-                <div class="botoes">
-                    <a href="../Inicial/pagina_de_entrada.html">
-                        <button class="acessar">Acessar</button>
-                    </a>
-                    <a href="../cadastro/pagina_cadastro.html">
-                        <button class="cadastro">Cadastro</button>
-                    </a>
-                </div>
-            </div>
+            </form>
         </main>
+
+        
 </body>
 </html>
