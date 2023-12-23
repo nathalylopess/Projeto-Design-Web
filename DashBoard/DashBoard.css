@@ -348,7 +348,7 @@ main {
 
 @media (max-width: 900px) {
     main {
-        height: 800vh;
+        height: 400vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -361,7 +361,7 @@ main {
 
 @media (max-width: 800px) {
     main {
-        height: 600vh;
+        height: 400vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -385,7 +385,7 @@ main {
 
 @media (max-width: 600px) {
     main {
-        height: 500vh;
+        height: 400vh;
         width: 100%;
         display: flex;
         flex-direction: column;
