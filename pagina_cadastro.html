@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastre-se </title>
+    <link rel="stylesheet" href="pagina_cadastro.css">
+    
+</head>
+<body>
+        <header> 
+            <nav>
+                <div class="cabeçalho">
+                    <!--<img src="../imagens/logo_GymXpower_branca.png" id="logo_gymxpower"> -->
+                </div>
+            </nav>
+        </header>
+        <main>
+            <form id="form">
+                <div class="cadastro">
+                    <p id="cadastro_gymxpower">Cadastre-se</p>
+                    <input type="text"  placeholder="E-mail" class="input required" oninput="emailValidate()">
+                    <span class="span-required">Digite um email válido</span>
+
+                    <input type="text"  placeholder="Nome de Usuário" class="input required" oninput="nameValidate()">
+                    <span class="span-required">Nome de usuario deve ter no mínimo 3 caracteres</span>
+
+                    <input type="password" placeholder="Senha" class="input required" oninput="maisPasswordValidate()">
+                    <span class="span-required">Digite uma senha com no mínimo 8 caracteres</span>
+
+                    <input type="password"  placeholder="Confirmar Senha" class="input required" oninput="comparePassword()">
+                    <span class="span-required">Senha devem ser compatíveis</span>
+
+                    <!-- <a href="../Inicial/pagina_de_entrada.html"> -->
+                    <button id="cadastrese" type="submit"> Concluir </button>
+                    </a>
+                </div>
+            </form>
+        </main>
+        <script src="pagina_cadastro.js" ></script>
+</body>
+</html>
