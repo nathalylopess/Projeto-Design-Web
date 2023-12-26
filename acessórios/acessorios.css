@@ -13,6 +13,24 @@ nav {
     background-color:black;
 }
 
+#carrinho_pag {
+    background-color: transparent;
+}
+
+#carrinho_pag i{
+    background-color: transparent;
+    color: white;
+}
+
+#login_pag{
+    background-color: transparent;
+}
+
+#login_pag i{
+    background-color: transparent;
+    color: white;
+}
+
 #menu {
     display: none;
 }
